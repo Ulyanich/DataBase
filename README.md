@@ -140,3 +140,14 @@ VALUES ('3949538',	'1048522',	    '1', 	'$3.00 h.e.b. grocery contribution to Fo
 , ('3951455',	'11110881069',	'425',	'(709ml) kroger toilet Bowl cleaner 24oz'																								)
 , ('3950638',	'11110883520',	'429',	'(275g) apriva no calorie sweetener 9.7oz'																								)
 , ('3950647',	'11110899446',	'433',	'(276g) kroger value - frosted strawberry toaster pastries 9.75oz'																		)
+
+
+
+CREATE TABLE dbo.T_SALES	
+( ID_DOCS INT NOT NULL 
+, DAY_ID DATE NOT NULL
+, ID_CLIENTS INT NOT NULL
+, ART_ID INT NULL
+, QNTY INT NULL
+)
+
