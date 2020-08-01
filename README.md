@@ -1,4 +1,5 @@
 # DataBase
+USE SOURCES;
 
 CREATE TABLE dbo.T_CLIENTS
 (ID INT NOT NULL
@@ -35,3 +36,11 @@ VALUES ('1',  '1234567810', 'Russian aluminum'				)
 , ('27', '1234567836', 'Integrated energy systems'		)
 , ('28', '1234567837', 'Phosagro'									)
 , ('29', '1234567838', 'Globalstroy-engineering'					)
+
+
+CREATE TABLE dbo.T_PRODUCTS		
+(ART_ID INT NOT NULL
+, STRIH_CODE VARCHAR(MAX) NOT NULL
+, PRICE REAL NULL
+, NAME VARCHAR(MAX) NOT NULL
+)
